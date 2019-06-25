@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./homeworks/**/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "husky": {
     "hooks": {
@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/aszx87410/program-3rd#readme",
   "dependencies": {
-    "eslint": "^5.15.1"
+    "eslint": "^5.15.1",
+    "jest": "^24.8.0"
   },
   "devDependencies": {
     "eslint": "^5.15.1",
