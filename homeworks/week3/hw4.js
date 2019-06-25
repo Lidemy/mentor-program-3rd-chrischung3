@@ -3,7 +3,6 @@ function isPalindromes(str) {
   const strFront = [];
   const strBack = [];
   const n = Math.floor(newStr.length / 2);
-
   for (let i = 0; i < n; i += 1) {
     strFront.push(newStr[i]);
   }
@@ -12,10 +11,15 @@ function isPalindromes(str) {
     strBack.push(newStr[newStr.length - j]);
   }
 
+  let result = 0;
+
   for (let i = 0; i <= strFront.length - 1; i += 1) {
     if (strFront[i] === strBack[i]) {
-      return true;
+      result += 1;
     }
+  }
+  if (result === strFront.length) {
+    return true;
   }
   return false;
 }
