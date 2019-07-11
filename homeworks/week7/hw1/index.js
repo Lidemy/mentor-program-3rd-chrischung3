@@ -16,7 +16,7 @@ function startGame(e) {
     startTime = new Date();
   }, time);
   e.stopPropagation();
-  btn.style.display = 'none';
+  btn.style.visibility = 'hidden';
 }
 
 function mouseClick() {
@@ -31,7 +31,7 @@ function mouseClick() {
     }
   }
   gameStart = false;
-  btn.style.display = 'block';
+  btn.style.visibility = 'visible';
   btn.innerText = '再試一次';
   body.removeEventListener('click', mouseClick);
 }
