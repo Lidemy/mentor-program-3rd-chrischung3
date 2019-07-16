@@ -1,0 +1,154 @@
+.questionaire {
+	font-family: sans-serif;
+	color: #1E1E1E;
+}
+
+.wrapper {
+	margin: 200px auto;
+	width: 600px;
+	border: 2px solid #898989;
+	padding: 20px;
+}
+
+.header {
+	margin: 22px 10px;
+}
+
+.title {
+	font-size: 35px;
+}
+
+.intro, .required {
+	margin-top: 22px;
+	font-size: 13px;
+}
+
+p {
+	margin: 13px 0px;
+}
+
+.required {
+	color: red;
+}
+
+.required__mark {
+	font-size: 20px;
+	color: red;
+	padding-left: 10px;
+}
+
+.text__input {
+	border: none;
+	border-bottom: 2px solid #D3D3D3;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	width: 250px;
+	font-size: 16px;
+	color: #D3D3D3;
+	background: rgba(0,0,0,0);
+}
+
+.no__input {
+	visibility: hidden;
+	color: #C52525;
+	margin-top: 3px;
+	font-size: 16px
+}
+
+.required__question_email {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 2px 0px;
+	/*background: rgba(252, 232, 230, 1);*/
+	background: transparent;
+	padding: 17px 15px;
+}
+
+.required__question_nick {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 2px 0px;
+	/*background: rgba(252, 232, 230, 1);*/
+	background: transparent;
+	padding: 17px 15px;
+}
+
+.required__question_course {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 2px 0px;
+	/*background: rgba(252, 232, 230, 1);*/
+	background: transparent;
+	padding: 17px 15px;
+}
+
+.required__question_job {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 2px 0px;
+	/*background: rgba(252, 232, 230, 1);*/
+	background: transparent;
+	padding: 17px 15px;
+}
+
+.required__question_aware {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 2px 0px;
+	/*background: rgba(252, 232, 230, 1);*/
+	background: transparent;
+	padding: 17px 15px;
+}
+
+.required__question_code__bg {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 2px 0px;
+	/*background: rgba(252, 232, 230, 1);*/
+	background: transparent;
+	padding: 17px 15px;
+}
+
+.non_required__question {
+	font-size: 20px;
+	margin: 2px 0px;
+	padding: 17px 15px;
+}
+
+label{
+	display: inline-flex;
+	align-items: center;
+}
+
+.check {
+	margin-right: 10px;
+}
+
+.check:hover {
+	cursor: pointer;
+}
+
+.checkbox {
+	font-size: 16px;
+	font-weight: 350;
+	margin: 15px 0px;
+}
+
+.subtitle {
+	font-size: 13px;
+
+}
+
+input[type='submit']{
+	-webkit-appearance: none;
+	width: 90px;
+	height: 38px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 3px;
+	background: #105EEE;
+	color: white;
+	border: none;
+	margin-top: 40px;
+	margin-left: 15px;
+}

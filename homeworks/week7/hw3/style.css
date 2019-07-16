@@ -1,0 +1,42 @@
+.wrapper{
+	border: 1px solid #DDDDDD
+	;
+	width: 400px;
+	padding: 10px;
+	margin: 100px auto;
+}
+
+.result{
+	width: max-width;
+	margin-bottom: 5px;
+	height: 50px;
+	border: 1px solid #DDDDDD;
+	text-align:right;
+	font-size: 50px;
+	padding: 5px;
+}
+
+.row-btns{
+	display: flex;
+	justify-content: space-between;
+}
+
+.row-btns > button {
+	width: 94px;
+    height: 36px;
+    display: inline-block;
+    margin-top: 6px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.row-btns > button:hover {
+	cursor: pointer;
+    border-color: #AAAAAA;
+}
+
+#equal {
+	width: 196px;
+	background: orange;
+	border-style: none;
+}
