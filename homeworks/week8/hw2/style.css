@@ -1,0 +1,95 @@
+.banner {
+	height: 100px;
+	margin: 10px auto;
+	background: url(https://img.kafkalin.com/uploads/20180820231541_99.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	color: white;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.post__area {
+	background: #DCDADA;
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 70px;
+	position: relative;
+}
+
+#add {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	height: 40px;
+	width: 100px;
+	border-radius: 5px;
+	border-color: none;
+	background: #024486;
+	color: white;
+	font-size: 15px;
+}
+
+.posts{
+	display: inline-flex;
+	border: 2px solid #2A2121;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 10px auto;
+	width: 800px;
+}
+
+.id {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #953331;
+	font-size: 40px;
+	text-align: center;
+}
+
+.content {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.content__title {
+	font-size: 18px;
+	color: blue;
+	font-style: italic;
+}
+
+.content__text {
+	font-size: 20px;
+	color: black;
+}
+
+.create {
+	font-size: 15px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 600px;
+	height: 300px;
+	border: 1px solid gray;
+	margin: 20px auto;
+}
+
+input.id__input{
+	height: 20px;
+	width: 80px;
+	margin-left: 10px;
+}
+
+input.content__input {
+	width: 100px;
+	height: 80px;
+	margin-left: 10px;
+}
