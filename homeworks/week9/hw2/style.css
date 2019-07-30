@@ -1,0 +1,85 @@
+html {
+	font-family: sans-serif;
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #3535b5;
+	z-index: 2;
+}
+
+.nav h1 {
+	margin: 0 20px;
+	display: inline-block;
+	color: white;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+}
+
+.nav a.active, .nav a:hover{
+	background: #8080e4;
+}
+
+.nav p{
+	color: white;
+	position: absolute;
+	right: 20px;
+	top: 4px;
+}
+
+.wrapper {
+	width: 800px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	position: relative;
+}
+
+.add {
+	position: absolute;
+	right: 30px;
+	top: 40px;
+}
+
+.post {
+	background: #e0e0e0;
+	text-align: left;
+	padding: 10px 20px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.users__nick {
+	margin-top: 2px;
+	color: blue;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.users__content {
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.created__at{
+	font-size: 12px;
+	color: gray;
+}
+
+form > div {
+	margin-bottom: 10px;
+}
+.warning {
+	background: red;
+	color: white;
+}
