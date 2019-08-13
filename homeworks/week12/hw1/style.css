@@ -1,0 +1,152 @@
+html {
+	font-family: sans-serif;
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #3535b5;
+	z-index: 2;
+}
+
+.nav h1 {
+	margin: 0 20px;
+	display: inline-block;
+	color: white;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+}
+
+.nav a.active, .nav a:hover{
+	background: #8080e4;
+}
+
+.nav p{
+	color: white;
+	position: absolute;
+	right: 20px;
+	top: 4px;
+}
+
+span {
+	margin: 5px;
+}
+
+.pages{
+	width: 800px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 800px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	position: relative;
+}
+
+.other__wrapper {
+	width: 800px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	position: relative;
+}
+
+.add {
+	position: absolute;
+	right: 30px;
+	top: 40px;
+}
+
+.post {
+	background: #e0e0e0;
+	text-align: left;
+	padding: 10px 20px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.users__nick {
+	margin-top: 2px;
+	color: blue;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.sub-comment__nick {
+	margin-top: 2px;
+	color: blue;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.sub-comment__content {
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.users__content {
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.created__at{
+	font-size: 12px;
+	color: gray;
+}
+
+.sub-comments {
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.sub-comment{
+	margin-top: 12px;
+	background: #B1B479;
+	padding: 16px;
+	border: 1px solid #ececec;
+}
+
+.add__sub-comment{
+	margin-top: 12px;
+	background: #B1B479;
+	padding: 16px;
+	border: 1px solid #ececec;
+}
+
+
+form > div {
+	margin-bottom: 10px;
+}
+.warning {
+	background: red;
+	color: white;
+}
+
+.edit {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
