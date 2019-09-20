@@ -1,0 +1,10 @@
+$colors: ("brand": #516891, "light-gray": #ebebeb, "grayish": #777777, "warning": #d10000, "nick": #0026ff)
+
+@function color($color-name)
+	@return map-get($colors, $color-name)
+
+@debug map-get($colors, brand)
+@debug map-get($colors, light-gray)
+@debug map-get($colors, grayish)
+@debug map-get($colors, warning)
+@debug map-get($colors, nick)
