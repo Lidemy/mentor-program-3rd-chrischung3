@@ -1,4 +1,4 @@
-/* eslint-env es6 */
+
 /* eslint object-shorthand: 0 */
 
 const obj = {
