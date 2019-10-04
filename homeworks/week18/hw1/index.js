@@ -1,4 +1,3 @@
-
 /* eslint object-shorthand: 0 */
 
 const obj = {
